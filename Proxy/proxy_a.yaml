@@ -1,0 +1,16 @@
+proxies:
+  - {"name": "File Creation Time: Thu Jun 26 11:27:53 UTC 2025", "server": "255.255.255.255", "port": 10086, "type": "vmess", "alterId": 0, "cipher": "auto", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "00000000-0000-0000-0000-000000000000"}
+  - {"name": "🇩🇪DE-104.28.163.89-8080", "server": "ip.sb", "port": 8080, "type": "vless", "client-fingerprint": "randomized", "network": "ws", "servername": "feng2.vfl83lnn.workers.dev", "tls": false, "uuid": "77f2d54c-f1bd-46ff-af4c-cc44c72fd25e", "ws-opts": {"headers": {"host": "feng2.vfl83lnn.workers.dev"}, "path": "/?ed=2048"}}
+  - {"name": "🇬🇧GB-47.122.31.59-8080", "server": "47.122.31.59", "port": 8080, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇬🇧GB-47.99.112.148-8060", "server": "47.99.112.148", "port": 8060, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇬🇧GB-8.130.34.44-9091", "server": "8.130.34.44", "port": 9091, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇮🇩ID-223.25.109.126-8199", "server": "223.25.109.126", "port": 8199, "type": "socks5", "client-fingerprint": "chrome", "skip-cert-verify": true, "udp": true}
+  - {"name": "🇮🇷IR-185.204.168.163-35972", "server": "185.204.168.163", "port": 35972, "type": "vless", "http-opts": {"method": "GET", "path": ["/"]}, "network": "http", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "e18e656d-39fd-4b80-95e5-72edcacb952c"}
+  - {"name": "🇰🇷KR-121.170.203.136-8960", "server": "p060.panda001.net", "port": 8960, "type": "ss", "cipher": "aes-256-cfb", "password": "qwerREWQ@@", "udp": true}
+  - {"name": "🇷🇺RU-138.124.14.83-15002", "server": "15002.kuaiyin02.top", "port": 15002, "type": "vmess", "alterId": 0, "cipher": "auto", "network": "tcp", "uuid": "9f513161-576b-3abc-9c98-06e52c3a24c6"}
+  - {"name": "🇹🇼TW-103.148.73.150-58436", "server": "183.240.180.48", "port": 58436, "type": "ss", "cipher": "2022-blake3-aes-128-gcm", "password": "di3YDVupSCsXSe2NbYlw5A=="}
+  - {"name": "🇺🇸US-149.112.117.11-443", "server": "usgp3-cdn-route.couldflare-cdn.com", "port": 443, "type": "http", "password": "exaxgqkKkd0TAMrCxeonWg==", "skip-cert-verify": false, "sni": "usgp3-cdn-route.couldflare-cdn.com", "tls": true, "username": "mrwdfNTD8M79LCukCieldrqZWqs="}
+  - {"name": "🇺🇸US-47.89.184.18*-3128", "server": "47.89.184.18", "port": 3128, "type": "http", "client-fingerprint": "chrome", "skip-cert-verify": true, "tls": false, "udp": true}
+  - {"name": "🇺🇸US-68.71.249.153-48606", "server": "68.71.249.153", "port": 48606, "type": "socks5", "skip-cert-verify": true, "udp": true}
+  - {"name": "🇺🇸US-72.37.216.68-4145", "server": "72.37.216.68", "port": 4145, "type": "socks5", "skip-cert-verify": true, "udp": true}
+  - {"name": "🇺🇸US-74.48.114.162-27010", "server": "b.lemonyun.xyz", "port": 27010, "type": "vmess", "alterId": 0, "cipher": "auto", "skip-cert-verify": true, "tls": false, "udp": true, "uuid": "3e7d92de-76b0-3975-bb10-c0d35ce6f6ab"}
