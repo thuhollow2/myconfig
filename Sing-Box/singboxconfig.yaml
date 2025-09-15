@@ -5513,7 +5513,6 @@
             "tag": "🇺🇸US-206.71.158.37-36400",
             "type": "hysteria2",
             "server": "2a14:3f87:f001:13::a",
-            "server_port": 36400,
             "server_ports": [
                 "36400"
             ],
