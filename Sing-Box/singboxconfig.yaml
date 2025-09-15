@@ -134,7 +134,7 @@
                 "2001:0470:f9da:fdfa::1/64"
             ],
             "auto_route": true,
-            "strict_route": true,
+            "strict_route": false,
             "mtu": 9000,
             "stack": "system",
             "platform": {
