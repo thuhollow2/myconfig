@@ -5514,7 +5514,7 @@
             "type": "hysteria2",
             "server": "2a14:3f87:f001:13::a",
             "server_ports": [
-                "36400"
+                36400
             ],
             "password": "Yet-Another-Public-Config-1",
             "up_mbps": 10,
