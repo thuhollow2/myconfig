@@ -3,6 +3,11 @@
         "level": "info",
         "timestamp": true
     },
+    "experimental": {
+        "cache_file": {
+            "enabled": true
+        }
+    },
     "dns": {
         "servers": [
             {
