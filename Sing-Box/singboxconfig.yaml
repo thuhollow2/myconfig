@@ -4053,9 +4053,7 @@
             "tag": "🇫🇷FR-195.154.200.40-15010",
             "type": "hysteria",
             "server": "195.154.200.40",
-            "server_ports": [
-                "15010"
-            ],
+            "server_port": 15010,
             "up_mbps": 100,
             "down_mbps": 100,
             "auth_str": "dongtaiwang.com",
