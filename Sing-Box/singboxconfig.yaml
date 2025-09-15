@@ -3,18 +3,6 @@
         "level": "info",
         "timestamp": true
     },
-    "experimental": {
-        "clash_api": {
-            "external_controller": "127.0.0.1:9090",
-            "external_ui": "ui",
-            "secret": "",
-            "default_mode": "rule"
-        },
-        "cache_file": {
-            "enabled": true,
-            "store_fakeip": false
-        }
-    },
     "dns": {
         "servers": [
             {
@@ -146,7 +134,16 @@
                 "2001:0470:f9da:fdfa::1/64"
             ],
             "auto_route": true,
-            "strict_route": true
+            "strict_route": true，
+            "mtu": 9000,
+            "stack": "system",
+            "platform": {
+                "http_proxy": {
+                    "enabled": true,
+                    "server": "127.0.0.1",
+                    "server_port": 9080
+                }
+            }
         },
         {
             "tag": "mixed-in",
