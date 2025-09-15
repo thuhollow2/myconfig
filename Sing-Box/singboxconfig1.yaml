@@ -19,12 +19,10 @@
         "servers": [
             {
                 "address": "1.0.0.1",
-                "detour": "proxy",
                 "tag": "proxy"
             },
             {
                 "address": "223.5.5.5",
-                "detour": "direct",
                 "tag": "local"
             },
             {
