@@ -3,7 +3,7 @@
         "level": "info",
         "timestamp": true
     },
-    "dns": {z
+    "dns": {
         "servers": [
             {
                 "tag": "remote",
