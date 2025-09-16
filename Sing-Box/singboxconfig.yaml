@@ -4571,7 +4571,7 @@
             "type": "hysteria2",
             "server": "150.230.28.100",
             "server_ports": [
-                "45979"
+                "45979:45979"
             ],
             "password": "cfe032e4-1bc3-454f-9d09-301b0aea08ff",
             "up_mbps": 10,
@@ -5182,7 +5182,7 @@
             "type": "hysteria",
             "server": "195.154.200.40",
             "server_ports": [
-                "15010"
+                "15010:15010"
             ],
             "up_mbps": 100,
             "down_mbps": 100,
@@ -5781,7 +5781,7 @@
             "type": "hysteria2",
             "server": "net2025.afsharidempire.uk",
             "server_ports": [
-                "30205"
+                "30205:30205"
             ],
             "password": "8864aa9f-7517-4fd5-aef1-32050eb3095d",
             "up_mbps": 10,
@@ -5822,7 +5822,7 @@
             "type": "hysteria2",
             "server": "gavazn.lnmarketplace.net",
             "server_ports": [
-                "45000"
+                "45000:45000"
             ],
             "password": "Telegram-->@Ln2Ray",
             "up_mbps": 10,
@@ -5842,7 +5842,7 @@
             "type": "hysteria2",
             "server": "yapc-1.adamhayward.co.uk",
             "server_ports": [
-                "36300"
+                "36300:36300"
             ],
             "password": "Yet-Another-Public-Config-1",
             "up_mbps": 10,
@@ -6405,7 +6405,7 @@
             "type": "hysteria2",
             "server": "mg1.xiaohuolongjc.top",
             "server_ports": [
-                "37771"
+                "37771:37771"
             ],
             "password": "0c061897-06f8-4211-a767-693412892270",
             "up_mbps": 10,
@@ -6522,7 +6522,7 @@
             "type": "hysteria2",
             "server": "192-227-152-86.nip.io",
             "server_ports": [
-                "61001"
+                "61001:61001"
             ],
             "password": "5CBqBh6MeDq6GajcilBiDg==",
             "up_mbps": 10,
@@ -6558,7 +6558,7 @@
             "type": "hysteria2",
             "server": "yapc-1.adamhayward.co.uk",
             "server_ports": [
-                "36400"
+                "36400:36400"
             ],
             "password": "Yet-Another-Public-Config-1",
             "up_mbps": 10,
