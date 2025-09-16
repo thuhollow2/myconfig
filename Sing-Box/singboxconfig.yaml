@@ -14,13 +14,13 @@
         "servers": [
             {
                 "tag": "remote",
-                "type": "udp",
+                "type": "https",
                 "server": "1.0.0.1",
                 "detour": "🧱 Global Website"
             },
             {
                 "tag": "local",
-                "type": "udp",
+                "type": "https",
                 "server": "223.5.5.5"
             }
         ],
