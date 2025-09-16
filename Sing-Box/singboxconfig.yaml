@@ -2,16 +2,6 @@
     "log": {
         "level": "error"
     },
-    "experimental": {
-        "clash_api": {
-            "external_controller": "127.0.0.1:9090",
-            "secret": "ThursdayVMe50"
-        },
-        "cache_file": {
-            "enabled": true,
-            "store_rdrc": true
-        }
-    },
     "dns": {
         "servers": [
             {
@@ -144,20 +134,9 @@
                 "2001:0470:f9da:fdfa::1/64"
             ],
             "auto_route": true,
-            "platform": {
-            "http_proxy": {
-                "enabled": true,
-                "server": "127.0.0.1",
-                "server_port": 7890
-            }
+            "strict_route": true,
+            "stack": "gvisor"
           }
-        },
-        {
-            "tag": "mixed-in",
-            "type": "mixed",
-            "listen": "127.0.0.1",
-            "listen_port": 7890,
-            "users": []
         }
     ],
     "outbounds": [
