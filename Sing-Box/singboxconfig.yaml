@@ -141,6 +141,7 @@
                 "2001:0470:f9da:fdfa::1/64"
             ],
             "auto_route": true,
+            "auto_redirect": false,
             "platform": {
             "http_proxy": {
                 "enabled": true,
