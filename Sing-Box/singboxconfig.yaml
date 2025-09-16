@@ -2,7 +2,7 @@
     "log": {
         "level": "error"
     },
-  "experimental": {
+    "experimental": {
         "clash_api": {
             "external_controller": "127.0.0.1:9090",
             "secret": "ThursdayVMe50",
@@ -127,7 +127,7 @@
             {
                 "rule_set": "ChinaIPv6",
                 "server": "local"
-            },
+            }
         ],
         "final": "local",
         "strategy": "prefer_ipv4"
