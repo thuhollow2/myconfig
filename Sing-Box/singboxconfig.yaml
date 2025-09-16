@@ -1,7 +1,6 @@
 {
     "log": {
-        "level": "debug",
-        "timestamp": true
+        "level": "error"
     },
   "experimental": {
         "clash_api": {
@@ -129,6 +128,9 @@
             {
                 "rule_set": "ChinaIPv6",
                 "server": "local"
+            },
+            {
+                "type": "local"
             }
         ],
         "strategy": "prefer_ipv4"
@@ -141,14 +143,22 @@
                 "172.19.0.1/30",
                 "2001:0470:f9da:fdfa::1/64"
             ],
+            "stack": "system",
             "auto_route": true,
-            "strict_route": true
+            "strict_route": true,
+            "platform": {
+            "http_proxy": {
+                "enabled": true,
+                "server": "127.0.0.1",
+                "server_port": 7890
+            }
+          }
         },
         {
             "tag": "mixed-in",
             "type": "mixed",
             "listen": "127.0.0.1",
-            "listen_port": 9080,
+            "listen_port": 7890,
             "users": []
         }
     ],
