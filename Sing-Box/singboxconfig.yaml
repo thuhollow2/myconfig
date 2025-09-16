@@ -18,14 +18,6 @@
         ],
         "rules": [
             {
-                "clash_mode": "Direct",
-                "server": "local"
-            },
-            {
-                "clash_mode": "Global",
-                "server": "remote"
-            },
-            {
                 "rule_set": "LocalAreaNetwork",
                 "server": "local"
             },
@@ -7419,14 +7411,6 @@
             {
                 "protocol": "dns",
                 "action": "hijack-dns"
-            },
-            {
-                "clash_mode": "Direct",
-                "outbound": "direct"
-            },
-            {
-                "clash_mode": "Global",
-                "outbound": "🚀 Node Group - 1"
             },
             {
                 "rule_set": "LocalAreaNetwork",
