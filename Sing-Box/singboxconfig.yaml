@@ -140,9 +140,7 @@
                 "172.19.0.1/30",
                 "2001:0470:f9da:fdfa::1/64"
             ],
-            "stack": "system",
             "auto_route": true,
-            "strict_route": true,
             "platform": {
             "http_proxy": {
                 "enabled": true,
@@ -150,13 +148,6 @@
                 "server_port": 7890
             }
           }
-        },
-        {
-            "tag": "mixed-in",
-            "type": "mixed",
-            "listen": "127.0.0.1",
-            "listen_port": 7890,
-            "users": []
         }
     ],
     "outbounds": [
