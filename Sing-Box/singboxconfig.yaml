@@ -128,8 +128,8 @@
                 "rule_set": "ChinaIPv6",
                 "server": "local"
             },
-            "final": "local"
         ],
+        "final": "local",
         "strategy": "prefer_ipv4"
     },
     "inbounds": [
