@@ -1,12 +1,17 @@
 {
     "log": {
-        "level": "error"
+        "level": "error",
+        "timestamp": true
     },
     "experimental": {
         "clash_api": {
             "external_controller": "127.0.0.1:9090",
             "secret": "ThursdayVMe50",
             "default_mode": "Rule"
+        },
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": true
         }
     },
     "dns": {
@@ -21,6 +26,12 @@
                 "tag": "local",
                 "type": "udp",
                 "server": "223.5.5.5"
+            },
+            {
+                "tag": "fake",
+                "type": "fakeip",
+                "inet4_range": "198.18.0.0/15",
+                "inet6_range": "fc00::/18"
             }
         ],
         "rules": [
@@ -156,8 +167,7 @@
             "tag": "mixed-in",
             "type": "mixed",
             "listen": "127.0.0.1",
-            "listen_port": 9080,
-            "users": []
+            "listen_port": 9080
         }
     ],
     "outbounds": [
