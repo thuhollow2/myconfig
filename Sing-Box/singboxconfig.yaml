@@ -41,7 +41,12 @@
             },
             {
                 "clash_mode": "Global",
-                "server": "remote"
+                "server": "fake"
+            },
+            {
+                "query_type": ["A", "AAAA"],
+                "server": "fake",
+                "rewrite_ttl": 1
             },
             {
                 "rule_set": "LocalAreaNetwork",
@@ -154,14 +159,7 @@
             "auto_route": true,
             "strict_route": true,
             "mtu": 9000,
-            "stack": "system",
-            "platform": {
-                "http_proxy": {
-                    "enabled": true,
-                    "server": "127.0.0.1",
-                    "server_port": 9080
-                }
-            }
+            "stack": "mixed"
         },
         {
             "tag": "mixed-in",
